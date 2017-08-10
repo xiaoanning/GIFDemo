@@ -13,6 +13,8 @@
 		4D0DFAF81F1F52F000147813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DFAF61F1F52F000147813 /* Main.storyboard */; };
 		4D0DFAFA1F1F52F000147813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DFAF91F1F52F000147813 /* Assets.xcassets */; };
 		4D0DFAFD1F1F52F000147813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DFAFB1F1F52F000147813 /* LaunchScreen.storyboard */; };
+		4D0DFB051F1F539E00147813 /* wait.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DFB041F1F539E00147813 /* wait.gif */; };
+		4DEA89E21F2ECB23000AB899 /* gif.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA89E11F2ECB23000AB899 /* gif.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4D0DFAF91F1F52F000147813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0DFAFC1F1F52F000147813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0DFAFE1F1F52F000147813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0DFB041F1F539E00147813 /* wait.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wait.gif; sourceTree = "<group>"; };
+		4DEA89E11F2ECB23000AB899 /* gif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gif.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		4D0DFAEC1F1F52F000147813 /* GIFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4DEA89E11F2ECB23000AB899 /* gif.png */,
+				4D0DFB041F1F539E00147813 /* wait.gif */,
 				4D0DFAF01F1F52F000147813 /* AppDelegate.h */,
 				4D0DFAF11F1F52F000147813 /* AppDelegate.m */,
 				4D0DFAF31F1F52F000147813 /* ViewController.h */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0DFAFD1F1F52F000147813 /* LaunchScreen.storyboard in Resources */,
+				4D0DFB051F1F539E00147813 /* wait.gif in Resources */,
+				4DEA89E21F2ECB23000AB899 /* gif.png in Resources */,
 				4D0DFAFA1F1F52F000147813 /* Assets.xcassets in Resources */,
 				4D0DFAF81F1F52F000147813 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GIFDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anning.GIFDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GIFDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anning.GIFDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +319,7 @@
 				4D0DFB031F1F52F000147813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
